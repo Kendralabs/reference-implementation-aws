@@ -9,7 +9,7 @@ tags:
 region: "us-east-1"
 
 # The name of the EKS cluster you are installing this under.
-cluster_name: "cnoe-ref-impl"
+cluster_name: "cnoe-imp"
 
 # Set this to false if you want to manage DNS somewhere else. e.g. manually.
 enable_dns_management: true
