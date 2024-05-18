@@ -1,12 +1,12 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-  name: cnoe-ref-impl
-  region: us-west-2
-  version: "1.28"
+  name: cnoe-imp
+  region: us-east-1
+  version: "1.29"
 managedNodeGroups:
   - name: managed-ng-1
-    instanceType: m5.large
+    instanceType: t3.medium
     minSize: 3
     maxSize: 6
     desiredCapacity: 4
