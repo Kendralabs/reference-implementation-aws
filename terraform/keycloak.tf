@@ -88,7 +88,7 @@ resource "aws_secretsmanager_secret" "keycloak_config" {
   count = local.secret_count
 
   description = "for use with cnoe keycloak installation"
-  name = "cnoe/keycloak/config5"
+  name = "cnoe/keycloak/config6"
   recovery_window_in_days = 0
 }
 
