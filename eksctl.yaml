@@ -3,7 +3,7 @@ kind: ClusterConfig
 metadata:
   name: cnoe-imp
   region: us-east-1
-  version: "1.29"
+  version: "1.30"
 managedNodeGroups:
   - name: managed-ng-1
     instanceType: t3.medium
