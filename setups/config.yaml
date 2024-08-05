@@ -4,10 +4,10 @@ repo_url: "https://github.com/Kendralabs/reference-implementation-aws"
 # Tags to apply to AWS resources
 tags: 
   env: "dev"
-  project: "cnoe-imp"
+  project: "cnoe"
 region: "us-east-1"
 # The name of the EKS cluster you are installing this under.
-cluster_name: "cnoe"
+cluster_name: "cnoe-imp"
 # Set this to false if you want to manage DNS somewhere else. e.g. manually.
 enable_dns_management: true
 # If using external DNS, specify the Route53 hosted zone ID. Required if enable_dns_management is set to true
